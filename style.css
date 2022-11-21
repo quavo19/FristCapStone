@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "lato", sans-serif;
+  background-color: rgb(254, 252, 249);
+}
+
+.welcome-PG {
+  background-color: white;
+  background-image: url(img/wall6.jpg);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.humburger {
+  background-color: white;
+  height: 15vh;
+  opacity: 0.85;
+}
+
+.humburger img {
+  z-index: 1;
+  width: 30px;
+  height: 25px;
+  margin: 20px 30px;
+}
+
+.head-contain {
+  background-image: url(img/wall7.png);
+}
+
+.welcome-msg {
+  background-size: cover;
+  background-color: #fff;
+  opacity: 0.95;
+  padding-top: 1px;
+}
+
+.welcome-msg p{
+  color: rgb(186, 61, 61);
+  font-size: 20px;
+  margin: 20px;
+}
+
+.welcome-msg h1 { 
+  color: rgb(186, 61, 61);
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.description {
+    margin: 10px;
+    line-height: 25px;
+    border: 2px solid rgb(196, 196, 177);
+    background: #fff;
+}
+
+.description p {
+    margin: 10px;
+}
+
+.setting {
+    margin: 10px;
+}
+
+.label h2{
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.label {
+    background-color: rgb(51, 51, 51);
+    height: 80vh;
+}
+.line {
+    width: 50px;
+    background-color: rgb(186, 61, 61);
+    height: 4px;
+    border-radius: 5px;
+    margin: 5% 45%;
+}
+
+.agenda-icon img{
+    width: 50px;
+    height: 50px;
+}
