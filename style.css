@@ -90,3 +90,37 @@ body {
     width: 50px;
     height: 50px;
 }
+
+.Prog-outline {
+    margin: 10px;
+    color: #fff;
+    height: 90px;
+    display: flex;
+    background-color: rgb(85, 85, 85);
+}
+
+.outline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px;
+    width: 100%;
+}
+
+.agenda-label {
+    margin: 4% 10%;
+    color: rgb(186, 61, 61);
+}
+
+.join-btn{
+  display: flex;
+  justify-content: center;;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.join {
+    width: 300px;
+    height: 70px;
+    background-color: rgb(186, 61, 61);
+}
