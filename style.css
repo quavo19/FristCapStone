@@ -76,7 +76,6 @@ body {
 
 .label {
     background-color: rgb(51, 51, 51);
-    height: 80vh;
 }
 .line {
     width: 50px;
@@ -117,10 +116,74 @@ body {
   justify-content: center;;
   align-items: center;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .join {
     width: 300px;
     height: 70px;
     background-color: rgb(186, 61, 61);
+}
+
+.join h3 {
+    text-align: center;
+    color: #fff;
+    padding-top: 25px;
+}
+
+.speaker-card {
+    padding-bottom: 2%;
+}
+
+.header {
+    padding-top: 20px;
+    color: #000;
+    text-align: center;
+}
+
+.card-img img {
+  width: 90px;
+  height: 100px;
+}
+
+.speaker {
+    display: flex;
+    margin: 4%;
+}
+
+.card-detail {
+    padding-left: 10%;
+}
+
+.divider {
+    width: 30px;
+    background-color: rgb(136, 132, 132);
+    height: 1px;
+    border-radius: 5px;
+    margin: 3% 0;
+}
+
+.about {
+    color: rgb(186, 61, 61);
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.more-container {
+    border: 1px solid;
+    margin: 2%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-icon img {
+    width: 50px;
+    height: 30px;
+}
+
+.more-text h3 {
+    text-align: center;
+    align-items: center;
 }
