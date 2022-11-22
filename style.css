@@ -114,7 +114,7 @@ body {
 .line {
     width: 50px;
     background-color: rgb(186, 61, 61);
-    height: 4px;
+    height: 1px;
     border-radius: 5px;
     margin: 5% 45%;
 }
@@ -275,4 +275,38 @@ body {
 .text-container h2 {
     font-size: 30px;
     letter-spacing: -2px;
+}
+
+.bigger-container {
+    background-image: url(img/wall5.jpg);
+    height: 200px;
+    margin: 50px 40px 50px;
+}
+
+.small-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(186, 61, 61);
+    opacity: 0.9;
+}
+
+.container-header h2 {
+    font-size: 35px;
+    color: #fff;
+}
+
+.text-3 {
+    font-size: 17px;
+    color: #fff;
+}
+
+.paragraph {
+    margin: 0 10px 0;
+}
+
+.second {
+    background-image: url(img/wall4.jpg);
+    background-size: contain;
 }
