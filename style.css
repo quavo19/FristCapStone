@@ -310,3 +310,53 @@ body {
     background-image: url(img/wall4.jpg);
     background-size: contain;
 }
+
+.supporters-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 0 20px 30px;
+  padding-bottom: 30px;
+} 
+
+.left {
+    margin-left: 50%;
+}
+
+.supporters img {
+  width: 100px;
+  height: 70px;
+}
+
+.foot-head {
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footarea {
+    background-color: rgb(70, 69, 69);
+}
+
+.idea {
+    display: flex;
+}
+
+.logo-img2 img {
+    width: 40px;
+    height: 40px;
+}
+
+.last-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.logo-text {
+  line-height: 17px;
+}
+
+.foot-text {
+    line-height: 15px;
+    font-size: 14px;
+}
