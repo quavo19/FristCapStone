@@ -23,6 +23,15 @@ body {
   opacity: 0.85;
 }
 
+.welcome {
+ background-color:rgb(254, 252, 249);
+}
+
+.humburger-2 {
+  opacity: 0.95;
+}
+
+.humburger-2 img,
 .humburger img {
   z-index: 1;
   width: 30px;
@@ -32,6 +41,30 @@ body {
 
 .head-contain {
   background-image: url(img/wall7.png);
+}
+
+.welcome-msg-2 {
+    background-size: cover;
+    opacity: 0.95;
+    padding-top: 1px;
+    text-align: center;
+}
+
+.about-description {
+    margin: 20px 10px;
+    line-height: 25px;
+    border: 2px solid rgb(196, 196, 177);
+    background: #fff;
+}
+
+.welcome-msg-2 h1 {
+    padding-top: 20px;
+  color: rgb(186, 61, 61);
+}
+
+.welcome-msg-2 p {
+  color: rgb(186, 61, 61);
+  font-size: 20px;
 }
 
 .welcome-msg {
@@ -60,6 +93,7 @@ body {
     background: #fff;
 }
 
+.about-description p,
 .description p {
     margin: 10px;
 }
@@ -186,4 +220,59 @@ body {
 .more-text h3 {
     text-align: center;
     align-items: center;
+}
+
+.contact-text p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.main {
+    text-align: center;
+}
+
+.contact-email u {
+    font-weight: bold;
+}
+
+.section-2 {
+    background-color: #fff;
+    margin: 50px 0;
+}
+
+.header-2 {
+    font-size: 20px;
+    line-height: 35px;
+    padding: 30px 20px 5px;
+}
+
+.line-3 {
+    width: 200px;
+    background-color: rgb(136, 132, 132);
+    height: 1px;
+    border-radius: 5px; 
+}
+
+.logo-img img {
+  width: 100px;
+  height: 100px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px;
+    height: 170px;
+    border: 1px solid;
+}
+
+.text-container h1{
+  font-size: 35px;
+  letter-spacing: -1px;
+}
+
+.text-container h2 {
+    font-size: 30px;
+    letter-spacing: -2px;
 }
