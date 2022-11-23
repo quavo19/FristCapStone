@@ -34,6 +34,12 @@ To get a local copy up and running follow these simple example steps.
 
 you can view a live demo from [here](https://quavo19.github.io/FristCapStone/)
 
+## Video presentation
+you can watch an explanation of the whole project [here](https://www.loom.com/share/c80657b2e408484aac69f511c87ca425)
+
+## Acknowledgements
+Hat tip to [Cindy Shin](https://www.behance.net/adagio07), the author of the design
+
 ## Show your support
 Give a ⭐️ if you like this project!
 
