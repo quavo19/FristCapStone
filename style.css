@@ -524,7 +524,7 @@ footer,
   .outline-items {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    margin: 5% 20px;
+    margin: 5% 10%;
   }
 
   #china {
@@ -540,6 +540,7 @@ footer,
     display: flex;
     margin: 40px 10px;
     flex-direction: column;
+    text-align: center;
   }
 
   .line {
