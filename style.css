@@ -356,7 +356,247 @@ body {
   line-height: 17px;
 }
 
+.foot {
+    display: block;
+} 
+
 .foot-text {
     line-height: 15px;
     font-size: 14px;
+}
+
+footer,
+.desktop,
+.navigation,
+.see {
+    display: none;
+}
+.spaeaker-card:nth-child(3),
+.spaeaker-card:nth-child(4),
+.spaeaker-card:nth-child(5),
+.spaeaker-card:nth-child(6) {
+    display: none;
+}
+
+
+@media  (min-width: 867px) {
+    .welcome-msg-2 p,
+    .humburger-2,
+    .humburger {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .spaeaker-card:nth-child(3),
+    .spaeaker-card:nth-child(4),
+    .spaeaker-card:nth-child(5),
+    .spaeaker-card:nth-child(6) {
+    display: block;
+}
+
+    .nav-bar {
+        background-color: #000;
+    }
+
+    .nav-list ul {
+        display: flex;
+        justify-content: right;
+        padding-right: 80px;
+    }
+
+    .nav-list ul li {
+        color: #fff;
+        margin: 10px 15px;
+    }
+
+   ul {
+        list-style: none;
+    }
+
+    .navbar-2 {
+        display: flex;
+        justify-content: space-between;
+        background-color: #fff;
+    }
+
+    .idea-2 {
+        margin: 20px 50px;
+    }
+
+    .nav-list-2 {
+        padding-right: 10%;
+    }
+
+    .nav-list-2 ul {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-list-2 ul li {
+        margin: 10px 10px;
+    }
+    .last-list a,
+    .first-list a {
+        color: rgb(186, 61, 61);
+    }
+
+    .last-list {
+        border: 5px solid rgb(186, 61, 61);
+        height: 50px;
+        color: rgb(186, 61, 61);
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome-msg {
+        height: 40vh;
+    }
+
+    .description {
+        height: 20vh;
+    }
+
+    .setting {
+        height: 20vh;
+    }
+    .description {
+        width: 40%;
+        height: 50%;
+        margin: 70px 16% 0;
+    }
+
+    .setting {
+        padding: 20px 15% 0;
+    }
+    .welcome-msg h1{
+        font-size: 50px;
+        padding: 20px 0 15% 15%;
+    }
+    .welcome-msg p{
+        padding: 10% 15% 0;
+        font-size: 30px;
+    }
+
+    .outline-items {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        margin: 5% 20px;
+    }
+
+    .Prog-outline {
+        margin: 3px;
+        height: 250px;
+    }
+
+    .outline {
+        display: flex;
+        margin: 40px 10px;
+        flex-direction: column;
+    }
+
+    .line {
+        margin: 20px 48%;
+    }
+
+    .mobile-speakers {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 70px 120px;
+    }
+
+    .desktop {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 70px 120px;
+    }
+
+    .more-container {
+        display: none;
+    }
+
+    .supporters-container {
+        display: flex;
+        justify-content: space-around;
+        margin: 0px 120px;
+    }
+    
+    .left {
+        margin-left: 0 !important;
+    }
+
+    .logo-text {
+        font-weight: bolder;
+    }
+
+    .foot-head{
+        color: rgb(123, 121, 121);
+    }
+
+    .see {
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        padding: 50px 10px 70px 0px;
+    }
+
+    .join-btn {
+        display: none;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .welcome {
+        font-size: 25px;
+        margin: 70px 0 70px;
+    }
+
+    .about-description {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    .contact-text {
+        margin-top: 70px;
+    }
+
+    .contact-email {
+        padding-bottom: 70px;
+    }
+
+    .container-2 {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    .bigger-container {
+        width: 400px;
+    }
+
+    .history {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footarea {
+        display: none;
+    }
+    .last-container {
+        padding: 20px;
+        margin: 0 !important;
+        justify-content: center;
+        gap: 20px;
+        background-color: #000;
+        color: #fff;
+    }
 }
