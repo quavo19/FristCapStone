@@ -1,7 +1,7 @@
 
 # Hackers Conference 2022 
 
-## this is a webpage for a conference
+this is a webpage for a conference, it is made to give updates to all participants of the conference.
 
 ## Built With
 - html
