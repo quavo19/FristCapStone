@@ -496,10 +496,6 @@ footer,
     align-items: center;
   }
 
-  .welcome-msg {
-    height: 40vh;
-  }
-
   .setting {
     height: 20vh;
     padding: 20px 15% 0;
