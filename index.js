@@ -7,7 +7,7 @@ popup.addEventListener('click', () => {
   popup.style.display = 'none';
 });
 
-const Load = document.querySelector('.mobile-speakers');
+const load = document.querySelector('.mobile-speakers');
 
 const speakers = [
   {
@@ -72,5 +72,5 @@ speakers.forEach((Project) => {
   </div>
 </div>
     `;
-  Load.innerHTML += content;
+  load.innerHTML += content;
 });
