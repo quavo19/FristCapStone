@@ -3,37 +3,29 @@
 
 <a name="readme-top"></a>
 
-
-
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+- [📗 Table of Contents](#-table-of-contents)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
   - [📺 Presentation Video ](#presentation-video)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
-
+  - [💻 Getting Started ](#getting-started)
+  - [👥 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 # 📖 [Hackers Conference 2022] <a name="about-project"></a>
 
 > This dedicated webpage has been created to serve as a source of information for all attendees of the conference. It is aimed to provide timely updates and keep everyone informed about the proceedings and events, ensuring a seamless and well-coordinated experience for all participants.
 
-**[Awsome Books]** is a Single page app 
+**[bellow is a visual of the live version]**
+![Screenshot (88)](https://user-images.githubusercontent.com/87555548/218043998-1e313608-f7fc-4cb0-b165-c137f8840c7a.png)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -86,6 +78,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/DonaldAkite)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/donald-akite-299a31222/)
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Add a login page**
+- [ ] **Add a chatbox**
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -112,6 +109,10 @@ If you liked this project dont forget to leave a start
   - NO, the webpage does not require any login
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) who is the original author for this [design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
 
 ## 📝 License <a name="license"></a>
 
