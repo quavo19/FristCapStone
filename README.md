@@ -12,6 +12,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [📺 Presentation Video ](#presentation-video)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -57,7 +58,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 you can view a live demo from [here](https://quavo19.github.io/FristCapStone/)
 
-## Video presentation
+## 📺 Video presentation  <a name="presentation-video"></a>
 you can watch an explanation of the whole project [here](https://www.loom.com/share/c80657b2e408484aac69f511c87ca425)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -67,7 +68,10 @@ To get a local copy up and running follow these simple example steps.
 ## Step 1:
 - if you don't have git installed on your machine you can download it from [here ](https://git-scm.com/downloads).
 - Once you have git installed on your machine you can clone your project by running the command below to clone this project to your local machine in the directory of the folder you want it to be cloned
-- git clone https://github.com/quavo19/FristCapStone.git
+ ```sh
+  cd my-folder
+  git clone https://github.com/quavo19/FristCapStone.git
+```
 - Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
 
 ## Step 2: 
