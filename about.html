@@ -4,188 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
-    <title>CLAY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>B.A.H.T</title>
 </head>
-<body>
-    <!-- navigation starts here -->
-    <nav class="nav-container">
-        <div class="navigation">
-            <div class="nav-bar">
-                <div class="nav-list">
-                    <ul>
-                        <li>
-                            <img src="img/github1.png" alt="twitter logo">
-                        </li>
-                        <li>English</li>
-                        <li>My Page</li>
-                        <li>Logout</li>
-                    </ul>
+<body class="font-lato">
+    <header class="bg-header-texture overflow-clip">
+        <nav class="bg-[#272A31] w-full md:flex justify-end text-white space-x-6 pr-36 py-2 hidden">
+          <i class="fa fa-facebook pt-1 cursor-pointer scale-100 hover:scale-105"></i>
+          <i class="fa fa-twitter pt-1 cursor-pointer scale-100 hover:scale-105"></i>
+          <ul class="flex space-x-6">
+            <li class="cursor-pointer scale-100 hover:scale-105">English</li>
+            <li class="cursor-pointer scale-100 hover:scale-105">My Page</li>
+            <li class="cursor-pointer scale-100 hover:scale-105">Logout</li>
+          </ul>
+        </nav>
+        <nav class="py-4 md:shadow-md md:bg-white px-4">
+            <div class="hidden fixed top-0 left-0 w-full h-screen bg-[#3E3E3E] z-10 opacity-90 mobile-menu md:hidden">
+                <svg class="w-10 h-10 text-white fixed right-8 top-10 close-btn hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                <ul class="flex flex-col justify-center text-center my-20">
+                  <li class="cursor-pointer scale-100 hover:scale-105 text-3xl font-semibold text-white py-10"><a href="index.html">Home</a></li>
+                  <li class="cursor-pointer scale-100 hover:scale-105 text-3xl font-semibold text-white py-10"><a href="#">Program</a></li>
+                  <li class="cursor-pointer scale-100 hover:scale-105 text-3xl font-semibold text-white py-10"><a href="#">Join</a></li>
+                  <li class="cursor-pointer scale-100 hover:scale-105 text-3xl font-semibold text-white py-10"><a href="#">Sponsor</a></li>
+                  <li class="cursor-pointer scale-100 hover:scale-105 border-4 font-semibold border-[#EC5242] my-10 text-3xl text-[#EC5242] px-2 mx-auto">B.A.H.T</li>
+                </ul>
+            </div>
+          <svg class="w-10 h-10 md:hidden cursor-pointer hamburger" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            <div class="hidden md:flex justify-between items-center mx-32">
+                <div class="flex items-center">
+                    <a href="index.html">
+                        <img class="w-12" src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <ul class="hidden md:flex space-x-6">
+                <li class="cursor-pointer scale-100 hover:scale-105 font-semibold text-xl text-[#EC5242]">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="cursor-pointer scale-100 hover:scale-105 font-semibold text-xl">Program</li>
+                <li class="cursor-pointer scale-100 hover:scale-105 font-semibold text-xl">Join</li>
+                <li class="cursor-pointer scale-100 hover:scale-105 font-semibold text-xl">Sponsor</li>
+                <li class="cursor-pointer scale-100 hover:scale-105 font-semibold text-xl border-4 border-[#EC5242] text-sm text-[#EC5242] px-2">B.A.H.T</li>
+                </ul>
+            </div>
+        </nav>
+        <h3 class="text-[#EC5242] text-xl pt-10 flex justify-center md:justify-start md:hidden">"Hello Hackers"</h3>
+        <h1 class="text-3xl font-extrabold flex justify-center text-center text-[#EC5242] md:pt-36 md:text-5xl">B.A.H.T CONFERENCE 2023</h1>
+        <div class="px-1 mt-10 border-2 mx-4 shadow shadow-white bg-white text-center py-2 md:mx-44 md:text-xl md:px-10 md:py-10">
+            The Global Summit brings together the community of
+            experts, academics, and activists who comprise the Creative
+            Commons affiliate network in a different country every two.
+            This year, we hope to expand our invitation list including
+            organizations and individuals
+        </div>
+        <p class="flex justify-center text-center text-sm px-10 pt-8">Please contact us per Email for any further questions about B.A.H.T 2023!</p>
+        <span class="underline flex justify-center text-sm pb-8">annonymous@B.A.H.T.com</span>
+    </header>
+    <section>
+        <p class="pt-10 text-2xl text-center px-10 font-semibold md:text-3xl">B.A.H.T CONFERENCE 2023</p>
+        <hr class="border-[#EC5242] my-5 mx-44 md:mx-[800px]"/>
+        <p class="px-10 text-sm text-center pb-10 md:text-xl">The logo of B.A.H.T CONFERENCE was decided through the logo competition from 8 June to 7 July</p>
+        <div class="border mx-4 mb-10 md:mx-44">
+            <img class="mx-auto" src="images/logo.png" alt="logo">
+        </div>
+        <hr/>
+        <p class="pt-10 text-2xl text-center px-10 font-semibold md:text-3xl">See the past B.A.H.T CONFERENCE</p>
+        <hr class="border-[#EC5242] my-5 mx-44 md:mx-[800px]"/>
+        <p class="px-10 text-sm text-center pb-10">Take a look at the last B.A.H.T CONFERENCE which took place in 2020 in Ghana</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 justify-center mb-10 gap-12">
+            <!--Images with background color and background imaage-->
+            <div class="bg-[#EC5242] bg-past-first mx-4 bg-blend-multiply bg-cover bg-center bg-no-repeat h-[400px]">
+                <div class="flex flex-col justify-center h-full">
+                    <p class="text-center text-white text-2xl font-semibold">2020</p>
+                    <p class="text-center text-white text-xl font-semibold">B.A.H.T CONFERENCE</p>
                 </div>
             </div>
-            <div class="navbar-2">
-                <div class="idea idea-2">
-                    <div class="logo-img2">
-                        <img src="img/logo4.png" alt="confrence logo">
-                    </div>
-                    <div class="logo-text">
-                        <h3>CLAY</h3>
-                        <h3>Ghana 2022</h3>
-                    </div>
-                </div>
-                <div class="nav-list-2">
-                    <ul>
-                        <li class="first-list"><a href="index.html">Home</a></li>
-                        <li>Program</li>
-                        <li>Join</li>
-                        <li>Sponser</li>
-                        <li>News</li>
-                        <li class="last-list">CLAY Campaign</li>
-                    </ul>
+            <div class="bg-[#EC5242] bg-past-second mx-4 bg-blend-multiply bg-cover bg-center bg-no-repeat h-[400px]">
+                <div class="flex flex-col justify-center h-full">
+                    <p class="text-center text-white text-2xl font-semibold">2018</p>
+                    <p class="text-center text-white text-xl font-semibold">B.A.H.T CONFERENCE</p>
                 </div>
             </div>
         </div>
-        <div class="welcome-PG">
-                <div class="menupopup"  id="menupopup">
-                    <img id="closer"  src="./img/Icon.png" alt="icon-png">
-                    <ul>
-                        <a href="index.html">Home</a>
-                        <a href="">Program</a>
-                        <a href="">Sponser</a>
-                        <a href="">News</a>
-                        <a href="">CLAY Campaign</a>
-                    </ul>
-                </div>
-                <div class="humburger" id="MENU">
-                   <img src="img/menubtn.png" alt="humburger icon">
-                </div>
-            <div class="head-contain">
-                <div class="welcome-msg">
-                    <p>"Warm welcome, Heros"</p>
-                    <h1>WORLD BEST ETHICAL <br> HACKERS SUMMIT 2022</h1>
-                    
-                </div>
-            </div>
+        <img class="w-full md:hidden" src="images/partner.png" alt="line">
+        <img class="w-full hidden md:block" src="images/partnerdesktop.png" alt="line">
+    </section>
+    <footer class="bg-[#272A31] text-white flex mx-auto justify-center">
+        
+        <div class="flex flex-col justify-center items-center py-10">
+            <p class="text-center text-sm font-semibold md:text-base">2023 B.A.H.T CONFERENCE.</p>
+            <p class="text-center text-sm font-semibold">Some Rights Reserved</p>
         </div>
-    </nav>
-<!-- main container starts here -->
-
-    <main class="main">
-        <div class="about-description">
-            <p>I warmaly welcome you all to the 3RD sexom of Clowns Laugthing At You (CLAY), we seek to find solutions every year to every possible loop hole since 1987, with participants of about 300 in 70 diffent countries helping out</p>
-        </div>
-        <div class="contact-text">
-            <p> Please contact us via Email for any further questions  about CLAY global summit 2015</p>
-        </div>
-        <div class="contact-email">
-            <u>Clay2022@gmail.com</u>
-        </div>
-
-        <section class="section-2">
-            <div class="header-2">
-                <h3>Clawns Laughting At You Global Summit 2022 Logo</h3> 
-                <h3></h3>
-            </div>
-            <div class="line-2 line"></div>
-            <div class="para">
-                <p>The logo of CLAY Global Summit 2022 was decided </p>
-                <p>through the logo competition from 8th june to 7 july </p>
-            </div>
-            <div class="container-2">
-                <div class="logo-img">
-                    <img src="img/logo4.png" alt="logo">
-                </div>
-                <div class="text-container">
-                    <div>
-                        <h1>CLAY Global</h1>
-                        <h2>Summit 2015</h2>
-                    </div>
-                    <div class="line-3"></div>
-                    <div>
-                        <p>14th - 17th Oct 2015 | Ghana</p>
-                    </div>
-                    <div class="line-3"></div>
-                </div>
-            </div>
-        </section>
-        <section class="section-3">
-            <div>
-                <h3>See the past CLAY Global Summits</h3>
-            </div>
-            <div class="line"></div>
-            <div class="paragraph">
-                <p>Take a look at the last two CLAY Global summits which took place in Buenous Aires and in Warsaw</p>
-            </div>
-            <div class="history">
-                <div class="bigger-container">
-                    <div class="small-container">
-                        <div class="container-header">
-                            <h2>2021</h2>
-                        </div>
-                        <div class="text-3">
-                            <p>CLAY Global summit2021 in Togo</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="second bigger-container">
-                    <div class="small-container">
-                        <div class="container-header">
-                            <h2>2020</h2>
-                        </div>
-                        <div class="text-3">
-                            <p>CLAY Global summit2021 in Niger</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-<!-- footer starts here -->
-    <footer class="foot">
-       <div class="footarea" id = "foot">
-         <div class="foot-head">
-            <h2>Partner</h2>
-         </div>
-         <div class="line"></div>
-            <div class="supporters-container">
-               <div class="supporters">
-                   <img src="img/google.png" alt="google logo">
-               </div>
-               <div class="supporters">
-                   <img src="img/dell.png" alt="dell logo">
-               </div>
-               <div class="supporters">
-                   <img src="img/mozillalogo.png" alt="mozilla logo">
-               </div>
-               <div class="left supporters">
-                   <img src="img/nissan.png" alt="nissan logo">
-               </div>
-               <div class="left supporters">
-                   <img src="img/acer.png" alt="acer logo">
-               </div>
-            </div>
-       </div>
-       <div class="last-container" id="black">
-        <div class="idea">
-            <div class="logo-img2">
-                <img src="img/logo4.png" alt="confrence logo">
-            </div>
-            <div class="logo-text">
-                <h3>CLAY</h3>
-                <h3>Ghana 2022</h3>
-            </div>
-        </div>
-        <div class="foot-text">
-            <p>2022 CLAY Ghana Some Rights Reserved</p>
-            <p id="chaina">这只是一个定理文本这只是一个定理文本这只是一个定理文本这只是一个定理文本这只是  <br> 一个定理文本这只是一个定理文本这只是一个定理文本</p>
-        </div>
-       </div>
     </footer>
-
-    <script src="index.js"></script>
+    <script src="about.js"></script>
 </body>
 </html>
