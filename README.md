@@ -24,7 +24,7 @@
 > This dedicated webpage has been created to serve as a source of information for all attendees of the conference. It is aimed to provide timely updates and keep everyone informed about the proceedings and events, ensuring a seamless and well-coordinated experience for all participants.
 
 **[bellow is a visual of the live version]**
-![Screenshot (88)](https://user-images.githubusercontent.com/87555548/218043998-1e313608-f7fc-4cb0-b165-c137f8840c7a.png)
+![Screenshot (136)](https://user-images.githubusercontent.com/87555548/234754612-90145239-0712-4f17-be81-a8a351280ba2.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
